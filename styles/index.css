@@ -1,0 +1,21 @@
+.navbar-expand-lg {
+    background-color: #2b64b4;
+    font-family: Georgia, serif;
+}
+
+.nav-link {
+    color: white;
+}
+
+.logo-image {   
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.navbar-nav, .mr-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
