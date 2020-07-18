@@ -19,3 +19,13 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.carousel, .d-block {
+    width: 1000px;
+    height: 720px;
+}
+
+.container-fluid {
+    padding-top: 20px;
+}
+
