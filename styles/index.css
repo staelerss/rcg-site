@@ -1,14 +1,9 @@
 .navbar-expand-lg {
     background-color: #2b64b4;
     font-family: Georgia, serif;
-    padding: 0px;
 }
 
-.nav-link {
-    color: white;
-}
-
-.logo-image {   
+.logo-image {
     height: 100px;
     display: block;
     margin-left: auto;
@@ -16,29 +11,18 @@
     width: 50%;
 }
 
-.navbar-nav, .mr-auto {
+.navbar-nav{
     margin-left: auto;
     margin-right: auto;
+    color: white;
 }
 
-.carousel, .d-block {
-    width: 900px;
-    height: 600px;
-}
-
-.container-fluid {
+.carousel {
     padding-top: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
 }
 
 body {
     font-family: Georgia, serif;
-    padding-left: 200px;
-    padding-right: 200px;
 }
 
-p {
-    padding-left: 10px;
-}
 
