@@ -1,6 +1,14 @@
-.navbar-expand-lg {
+.navbar {
     background-color: #2b64b4;
-    font-family: Georgia, serif;
+}
+
+.nav-link {
+    font-size: large;
+    color:white;
+}
+
+.nav-link:hover {
+    color: lightgray;
 }
 
 .logo-image {
@@ -16,10 +24,6 @@
 
 .carousel {
     padding-top: 20px;
-}
-
-body {
-    font-family: Georgia, serif;
 }
 
 
