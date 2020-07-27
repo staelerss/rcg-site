@@ -2,7 +2,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 50%;
+    min-width: 350px;
+    max-width: 40%;
 }
 
 .navbar {
@@ -13,57 +14,72 @@
 }
 
 .nav-link {
-    font-size: 1vw;
+    font-size: 20px;
     font-weight: 400;
     color:white;
 }
 
 .navbar ul li {
-    margin: 0 1px;
+    background-color: #2b64b4;
+    margin-left: 1px;
+    margin-right: 1px;
+    border-radius: 0.3vw;
 }
 
 .navbar ul li:hover {
     background: #1f4780;
-    border-radius: 5px;
+    border-radius: 0.3vw;
     transition: all 150ms ease-in-out;
-    margin: 0 10px;
-}
-
-.navbar ul li.active {
-    background: #1f4780;
-    border-radius: 5px;
-    transition: all 150ms ease-in-out;
-    margin: 0 10px;
-}
-
-.navbar-nav {
-    display:table;
-    width:100%;
-    margin: 0;
-}
-
-.navbar-nav > li {
-    float:none;
-    display:table-cell;
-    text-align:center;
+    margin-left: 1px;
+    margin-right: 1px;
 }
 
 .nav-link:hover {
     color: white;
 }
+
 .carousel {
     margin-left: 0.2vw;
     margin-top: 1vw;
 }
 
-.d-block {
-    border-radius: 0.3vw;
+body {
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 
-.main-text {
-    background: darkgray;
-    margin: 1vw;
+.col-sm .btn {
+    font-weight: 600;
+    background: #2b64b4;
+    color: #ffffff;
+}
+
+.col-sm .btn:hover {
+    color: lightgray;
+}
+
+.col-sm .news {
+    display: block;
+    block-size: 250px;
+    text-align: center;
+}
+
+.news-link {
+    display: block;
+    font-weight: bold;
+    color: #2b64b4;
+    text-decoration: none;
+}
+
+.footer-navbar {
+    background: #2b64b4;
     border-radius: 0.3vw;
+    block-size: 60px;
+    margin-bottom: 20px;
+}
+
+.footer-navbar ul li {
+    display: inline-block;
 }
 
 
