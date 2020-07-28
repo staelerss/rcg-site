@@ -63,6 +63,12 @@ body {
     text-align: center;
 }
 
+.col-sm .info {
+    display: block;
+    block-size: 250px;
+    text-align: center;
+}
+
 .news-link {
     display: block;
     font-weight: bold;
@@ -74,7 +80,6 @@ body {
     background: #2b64b4;
     border-radius: 0.3vw;
     block-size: 60px;
-    margin-bottom: 20px;
 }
 
 .footer-navbar ul li {
