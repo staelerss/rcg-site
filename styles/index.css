@@ -20,7 +20,6 @@
 }
 
 .navbar ul li {
-    background-color: #2b64b4;
     margin-left: 1px;
     margin-right: 1px;
     border-radius: 0.3vw;
@@ -80,6 +79,14 @@ body {
 
 .footer-navbar ul li {
     display: inline-block;
+}
+
+.pulldown-icon {
+    color: white;
+}
+
+.pulldown-icon:hover {
+    color:white;
 }
 
 
