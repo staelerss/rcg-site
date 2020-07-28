@@ -19,6 +19,10 @@
     color:white;
 }
 
+.nav-link:hover {
+    color: white;
+}
+
 .navbar ul li {
     margin-left: 1px;
     margin-right: 1px;
@@ -31,10 +35,6 @@
     transition: all 150ms ease-in-out;
     margin-left: 1px;
     margin-right: 1px;
-}
-
-.nav-link:hover {
-    color: white;
 }
 
 .carousel {
@@ -54,7 +54,7 @@ body {
 }
 
 .col-sm .btn:hover {
-    color: lightgray;
+    background: #1f4780;
 }
 
 .col-sm .news {
@@ -66,7 +66,12 @@ body {
 .col-sm .info {
     display: block;
     block-size: 250px;
-    text-align: center;
+    align-content: center;
+}
+
+.col-sm .buttons {
+    display: block;
+    block-size: 250px;
 }
 
 .news-link {
@@ -74,6 +79,8 @@ body {
     font-weight: bold;
     color: #2b64b4;
     text-decoration: none;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 .footer-navbar {
@@ -92,6 +99,13 @@ body {
 
 .pulldown-icon:hover {
     color:white;
+}
+
+.date {
+    padding-top: 25px;
+}
+.date:hover {
+    background: #2b64b4;
 }
 
 
