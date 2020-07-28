@@ -102,12 +102,16 @@ body {
 }
 
 .date {
-    padding-top: 25px;
+    padding-top: 15px;
 }
-.date:hover {
+
+.footer-navbaro:hover {
     background: #2b64b4;
 }
 
+.info h1 {
+    text-align: center;
+}
 
 
 
