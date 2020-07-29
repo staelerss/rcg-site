@@ -2,49 +2,42 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    min-width: 350px;
+    min-width: 40%;
     max-width: 40%;
 }
 
 .navbar {
     background-color: #2b64b4;
-    margin-left: 1vw;
-    margin-right: 1vw;
-    border-radius: 0.3vw;
 }
 
 .nav-link {
-    font-size: 20px;
+    font-family: Georgia, serif;
+    font-size: 1.2vw;
     font-weight: 400;
-    color:white;
+    color: #ffffff;
 }
 
 .nav-link:hover {
-    color: white;
+    transition: all 150ms ease-in-out;
+    color: #1f4780;
 }
 
 .navbar ul li {
-    margin-left: 1px;
-    margin-right: 1px;
-    border-radius: 0.3vw;
-}
-
-.navbar ul li:hover {
-    background: #1f4780;
-    border-radius: 0.3vw;
-    transition: all 150ms ease-in-out;
-    margin-left: 1px;
-    margin-right: 1px;
+    margin: 0 1px;
 }
 
 .carousel {
-    margin-left: 0.2vw;
     margin-top: 1vw;
 }
 
 body {
-    padding-left: 1vw;
-    padding-right: 1vw;
+    padding: 1.5vw 16vw;
+    background-image: url("../images/bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .col-sm .btn {
