@@ -2,8 +2,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    min-width: 40%;
-    max-width: 40%;
+    min-width: 300px;
+    max-width: 55%;
 }
 
 .navbar {
@@ -12,7 +12,7 @@
 
 .nav-link {
     font-family: Georgia, serif;
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 400;
     color: #ffffff;
 }
@@ -31,7 +31,7 @@
 }
 
 body {
-    padding: 1.5vw 16vw;
+    padding: 1.5vw 15vw;
     background-image: url("../images/bg.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -41,7 +41,8 @@ body {
 }
 
 .col-sm .btn {
-    font-weight: 600;
+    border-radius: 2px;
+    font-weight: 400;
     background: #2b64b4;
     color: #ffffff;
 }
@@ -85,11 +86,11 @@ body {
     display: inline-block;
 }
 
-.pulldown-icon {
+.icons {
     color: white;
 }
 
-.pulldown-icon:hover {
+.icons:hover {
     color:white;
 }
 
@@ -107,12 +108,12 @@ body {
 
 .background-transparent {
     background: rgba(255, 255, 255, 0.5);
-    padding: 1.5vw;
+    padding: 1rem;
 }
 
 .background-solid {
     background: white;
-    padding: 1vw;
+    padding: 1rem;
 }
 
 
