@@ -12,14 +12,14 @@
 
 .nav-link {
     font-family: Georgia, serif;
-    font-size: 1.2vw;
+    font-size: 1em;
     font-weight: 400;
     color: #ffffff;
 }
 
 .nav-link:hover {
     transition: all 150ms ease-in-out;
-    color: #1f4780;
+    color: darkgray;
 }
 
 .navbar ul li {
@@ -78,7 +78,6 @@ body {
 
 .footer-navbar {
     background: #2b64b4;
-    border-radius: 0.3vw;
     block-size: 60px;
 }
 
@@ -98,12 +97,22 @@ body {
     padding-top: 15px;
 }
 
-.footer-navbaro:hover {
+.footer-navbar:hover {
     background: #2b64b4;
 }
 
 .info h1 {
     text-align: center;
+}
+
+.background-transparent {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 1.5vw;
+}
+
+.background-solid {
+    background: white;
+    padding: 1vw;
 }
 
 
