@@ -27,7 +27,7 @@
 }
 
 .carousel {
-    margin-top: 1vw;
+    padding-top: 1vw;
 }
 
 body {
@@ -117,19 +117,10 @@ body {
 }
 
 .photo {
-    height: 20em;
-    width: 1em;
-    background: darkgray;
+    padding: 1vw;
+    height: 50em;
 }
 
-.main-info {
-    padding-bottom: 10px;
-}
-
-.header {
-    font-weight: 400;
-    min-font-size: 4px;
-}
 
 
 
