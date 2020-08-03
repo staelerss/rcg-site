@@ -121,6 +121,21 @@ body {
     height: 50em;
 }
 
+.where-info {
+    border-bottom-style: solid;
+    border-bottom-color: #000000;
+    border-bottom-width: thin;
+    padding-bottom: 1vw;
+    text-align: center;
+    font-family: Georgia, serif;
+    color: #2b64b4;
+}
+
+.vtl-header {
+    text-align: center;
+    color: #2b64b4;
+}
+
 
 
 
