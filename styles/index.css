@@ -2,8 +2,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    min-width: 300px;
-    max-width: 55%;
+    min-width: 10px;
+    max-width: 40%;
 }
 
 .navbar {
@@ -22,16 +22,12 @@
     color: darkgray;
 }
 
-.navbar ul li {
-    margin: 0 1px;
-}
-
 .carousel {
-    padding-top: 0.8vw;
+    padding-top: 1rem;
 }
 
 body {
-    padding: 1.5vw 15vw;
+    padding: 5px 25px;
     background-image: url("../images/bg.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -94,10 +90,6 @@ body {
     color:white;
 }
 
-.date {
-    padding-top: 15px;
-}
-
 .footer-navbar:hover {
     background: #2b64b4;
 }
@@ -118,7 +110,7 @@ body {
 
 .photo {
     padding: 1vw;
-    height: 50em;
+    max-height: 50em;
 }
 
 .where-info {
@@ -136,8 +128,27 @@ body {
     color: #2b64b4;
 }
 
+.card {
+    max-width: 18rem;
+    margin: 1vw;
+}
 
+.card-img-top {
+    max-height: 50%;
+}
 
+.header {
+    max-font-size: 1em;
+}
+
+.col-sm .btn {
+    font-size: 1rem;
+}
+
+.col-sm .header {
+    font-size: 2rem;
+    font-weight: 400;
+}
 
 
 
