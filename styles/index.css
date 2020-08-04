@@ -36,6 +36,20 @@ body {
 
 }
 
+.parents header {
+    text-align: center;
+}
+
+.parents p {
+    text-align: justify;
+}
+.parents img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 .col-sm .btn {
     border-radius: 2px;
     font-weight: 400;
