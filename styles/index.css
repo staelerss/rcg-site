@@ -175,5 +175,8 @@ body {
     font-weight: 400;
 }
 
-
+.centered-knowledge .row .col-sm {
+    margin-left: auto;
+    margin-right: auto;
+}
 
