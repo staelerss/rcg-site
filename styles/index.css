@@ -36,18 +36,14 @@ body {
 
 }
 
-.parents header {
+.parents {
     text-align: center;
+
 }
 
-.parents p {
-    text-align: justify;
-}
-.parents img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.parents .photo {
+    display: inline-block;
+    max-width: 80%;
 }
 
 .col-sm .btn {
