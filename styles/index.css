@@ -16,7 +16,6 @@
     font-weight: 400;
     color: #ffffff;
 }
-
 .nav-link:hover {
     transition: all 150ms ease-in-out;
     color: darkgray;
@@ -52,6 +51,7 @@ body {
     background: #2b64b4;
     color: #ffffff;
 }
+
 
 .map-responsive {
     overflow:hidden;
