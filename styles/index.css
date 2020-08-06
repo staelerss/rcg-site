@@ -180,3 +180,6 @@ body {
     margin-right: auto;
 }
 
+.navbar .btn {
+    width: 10rem;
+}
