@@ -134,8 +134,9 @@ body {
 }
 
 .photo {
-    padding: 1em;
-    max-width: 20em;
+    padding-top: 1vw;
+    width: 100%;
+    object-fit: cover;
 }
 
 .where-info {
