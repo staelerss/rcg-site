@@ -188,3 +188,11 @@ body {
 #btn-welcome-to-vtl {
     font-size: 1rem;
 }
+
+.articles, .open-lessons, .center, .master-classes {
+    padding: 1em;
+}
+
+.articles-picture, .open-lessons-picture, .center-picture, .master-classes-picture {
+    max-width: 50%;
+}
