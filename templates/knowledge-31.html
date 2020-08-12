@@ -8,20 +8,6 @@
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
           crossorigin="anonymous">
     <!--BS styles-->
-    <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
-        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-        ym(65953813, "init", {
-            clickmap:true,
-            trackLinks:true,
-            accurateTrackBounce:true
-        });
-    </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/65953813" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-    <!-- /Yandex.Metrika counter -->
     <link rel="stylesheet" href="../styles/index.css">
     <title>RCG #2</title>
 </head>
@@ -29,7 +15,10 @@
 <div class="background-transparent">
     <div class="background-solid">
         <header>
-            <img class="logo-image" src="../images/logo.webp" alt="Logo image">
+            <picture>
+                <source class="center-picture" srcset="../images/logo.webp" type="image/webp">
+                <img class="center-picture" src="../images/logo.jpg" alt="articles picture"/>
+            </picture>
         </header>
         <main>
             <nav class="navbar navbar-expand-lg">
@@ -80,10 +69,10 @@
                 <div class="articles">
                     <div class="row">
                         <div class="col-sm">
-                            <a href="#" class="articles-picture">
+                            <a href="#" >
                                 <picture>
-                                    <source srcset="../images/knowledge-31/articles.webp" type="image/webp">
-                                    <img src="../images/knowledge-31/articles.jpeg" alt="articles picture"/>
+                                    <source class="articles-picture" srcset="../images/knowledge-31/articles.webp" type="image/webp">
+                                    <img class="articles-picture" src="../images/knowledge-31/articles.jpeg" alt="articles picture"/>
                                 </picture>
                             </a>
                         </div>
@@ -95,10 +84,10 @@
                 <div class="open-lessons">
                     <div class="row">
                         <div class="col-sm">
-                            <a href="#" class="open-lessons-picture">
+                            <a href="#">
                                 <picture>
-                                    <source srcset="../images/knowledge-31/open_lessons.webp" type="image/webp">
-                                    <img src="../images/knowledge-31/open_lessons.webp" alt="articles picture"/>
+                                    <source class="open-lessons-picture" srcset="../images/knowledge-31/open_lessons.webp" type="image/webp">
+                                    <img class="open-lessons-picture" src="../images/knowledge-31/open_lessons.webp" alt="articles picture"/>
                                 </picture>
                             </a>
                         </div>
@@ -110,10 +99,10 @@
                 <div class="master-classes">
                     <div class="row">
                         <div class="col-sm">
-                            <a href="#" class="master-classes-picture">
+                            <a href="#">
                                 <picture>
-                                    <source srcset="../images/knowledge-31/master_classes.webp" type="image/webp">
-                                    <img src="../images/knowledge-31/master_classes.jpeg" alt="articles picture"/>
+                                    <source class="master-classes-picture" srcset="../images/knowledge-31/master_classes.webp" type="image/webp">
+                                    <img class="master-classes-picture" src="../images/knowledge-31/master_classes.jpeg" alt="articles picture"/>
                                 </picture>
                             </a>
                         </div>
@@ -125,10 +114,10 @@
                 <div class="center">
                     <div class="row">
                         <div class="col-sm">
-                            <a href="#" class="center-picture">
-                                <picture >
-                                    <source srcset="../images/knowledge-31/center.webp" type="image/webp">
-                                    <img src="../images/knowledge-31/center.jpg" alt="articles picture"/>
+                            <a href="#" >
+                                <picture>
+                                    <source class="center-picture" srcset="../images/knowledge-31/center.webp" type="image/webp">
+                                    <img class="center-picture" src="../images/knowledge-31/center.jpg" alt="articles picture"/>
                                 </picture>
                             </a>
                         </div>

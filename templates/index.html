@@ -8,20 +8,6 @@
               integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
               crossorigin="anonymous">
         <!--BS styles-->
-        <!-- Yandex.Metrika counter -->
-        <script type="text/javascript" >
-            (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-                m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-            ym(65953813, "init", {
-                clickmap:true,
-                trackLinks:true,
-                accurateTrackBounce:true
-            });
-        </script>
-        <noscript><div><img src="https://mc.yandex.ru/watch/65953813" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-        <!-- /Yandex.Metrika counter -->
         <link rel="stylesheet" href="../styles/index.css">
         <title>RCG #2</title>
     </head>
@@ -29,7 +15,10 @@
     <div class="background-transparent">
         <div class="background-solid">
         <header>
-            <img class="logo-image" src="../images/logo.webp" alt="Logo image">
+            <picture>
+                <source class="logo-image" srcset="../images/logo.webp" type="image/webp">
+                <img class="logo-image" src="../images/logo.jpg" alt="articles picture"/>
+            </picture>
         </header>
         <main>
                 <nav class="navbar navbar-expand-lg">
@@ -84,13 +73,13 @@
                             <div id="carousel" class="carousel slide mainCarousel" data-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img class="d-block w-100" src="../images/slide-1.webp" alt="First slide">
+                                        <img class="d-block w-100" src="../images/slide-1.jpg" alt="First slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="../images/slide-2.webp" alt="Second slide">
+                                        <img class="d-block w-100" src="../images/slide-2.jpg" alt="Second slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="../images/slide-3.webp" alt="Third slide">
+                                        <img class="d-block w-100" src="../images/slide-3.jpg" alt="Third slide">
                                     </div>
                                 </div>
                             </div>
