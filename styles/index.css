@@ -135,7 +135,7 @@ body {
 
 .photo {
     padding-top: 1vw;
-    width: 100%;
+    max-width: 100%;
     object-fit: cover;
 }
 
@@ -194,5 +194,5 @@ body {
 }
 
 .articles-picture, .open-lessons-picture, .center-picture, .master-classes-picture {
-    max-width: 50%;
+    max-width: 80%;
 }
