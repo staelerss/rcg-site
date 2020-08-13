@@ -202,11 +202,9 @@ body {
 }
 
 .picture-exp {
-    max-width: 25rem;
+    max-width: 50%;
 }
 
-.row-exp-31 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.breadcrumbs {
+    padding-top: 5px;
 }
