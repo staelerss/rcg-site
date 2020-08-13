@@ -198,9 +198,10 @@ body {
 }
 
 .articles-picture:hover, .open-lessons-picture:hover, .center-picture:hover, .master-classes-picture:hover {
-    border: 2px silver solid;
-    padding: 2px;
-    transition: all 300ms ease-in-out;
+    border: 5px silver solid;
+    border-radius: 3px;
+    padding: 3px;
+    transition: all 150ms ease-in-out;
 }
 
 .exp-31 {
