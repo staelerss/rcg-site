@@ -216,8 +216,15 @@ body {
 .picture-exp {
     margin-left: auto;
     margin-right: auto;
-    padding-left: ;
     max-width: 35%;
+}
+
+.picture-exp-third, .picture-exp-first {
+    margin-right: 0px;
+}
+
+.picture-exp-forth, .picture-exp-second {
+    margin-left: 0px;
 }
 
 .breadcrumbs {
