@@ -194,7 +194,7 @@ body {
 }
 
 .articles-picture, .open-lessons-picture, .center-picture, .master-classes-picture {
-    max-width: 80%;
+    max-width: 100%;
 }
 
 .exp-31 {
@@ -203,4 +203,10 @@ body {
 
 .picture-exp {
     max-width: 25rem;
+}
+
+.row-exp-31 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
