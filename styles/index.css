@@ -14,9 +14,9 @@
     font-size: 1rem;
     font-weight: 400;
     color: #ffffff;
+    transition: all 75ms ease-in-out;
 }
 .nav-link:hover {
-    transition: all 150ms ease-in-out;
     color: darkgray;
 }
 
@@ -195,13 +195,13 @@ body {
 
 .articles-picture, .open-lessons-picture, .center-picture, .master-classes-picture {
     max-width: 100%;
+    transition: all 150ms ease-in-out;
 }
 
 .articles-picture:hover, .open-lessons-picture:hover, .center-picture:hover, .master-classes-picture:hover {
     border: 5px silver solid;
     border-radius: 3px;
     padding: 3px;
-    transition: all 150ms ease-in-out;
 }
 
 .exp {
@@ -229,4 +229,18 @@ body {
 
 .breadcrumbs {
     padding-top: 5px;
+}
+
+.new-exp-list {
+    text-decoration: none !important;
+    color: #000000;
+    transition: all 150ms ease-in-out;
+}
+
+.new-exp-list:hover {
+    text-decoration: none !important;
+    color: #000000;
+    background: lightgray;
+    border-radius: 3px;
+    padding: 3px;
 }
