@@ -244,3 +244,11 @@ body {
     border-radius: 3px;
     padding: 3px;
 }
+
+.col-sm > .button-more {
+    background-color: #8ec430;
+}
+
+.col-sm > .button-more:hover {
+    background-color: #668c24;
+}
