@@ -252,3 +252,10 @@ body {
 .col-sm > .button-more:hover {
     background-color: #668c24;
 }
+
+.video-iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
