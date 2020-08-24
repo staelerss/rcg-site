@@ -101,10 +101,57 @@
                     </div>
                     <div class="row">
                         <div class="col-sm">
-                            <article class="news">
-                                <h1>Новости и события</h1>
+                            <h1 class="vk-news-text">Новости и события</h1>
+                                <script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+                                <!-- VK Widget -->
+                                <div class="vk-news" id="vk_widget"></div>
+                                <script type="text/javascript">
+                                    function vkWidgetInit() {
+                                        var containerWidth = document.querySelector('#vk_widget').clientWidth;
+
+                                        document.querySelector('#vk_widget').innerHTML = '<div id="vk_groups"></div>';
+
+                                        VK.Widgets.Group("vk_groups", {
+                                            mode: 4,
+                                            no_cover: 1,
+                                            color3: '507299',
+                                            width: containerWidth,
+                                        }, 197326471);
+                                    }
+
+                                    /* begin Document Ready */
+                                    document.addEventListener('DOMContentLoaded', function() {
+
+                                        vkWidgetInit();
+
+                                        /* begin Window Resize */
+                                        (function() {
+                                            window.addEventListener("resize", resizeThrottler, false);
+
+                                            var resizeTimeout;
+
+                                            function resizeThrottler() {
+                                                if (!resizeTimeout) {
+                                                    resizeTimeout = setTimeout(function() {
+                                                        resizeTimeout = null;
+                                                        actualResizeHandler();
+                                                    }, 66);
+                                                }
+                                            }
+
+                                            function actualResizeHandler() {
+                                                vkWidgetInit();
+                                            }
+
+                                        })();
+                                        /* end Window Resize */
+
+                                    });
+                                    /* end Document Ready */
+                                </script>
+                            <div class="button-news">
                                 <a href="https://vk.com/public197326471" class="news-link btn" aria-pressed="true" target="_self">+подробнее</a>
-                            </article>
+                            </div>
                         </div>
                         <div class="col-sm">
                             <article class="info">
