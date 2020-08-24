@@ -135,6 +135,7 @@ body {
 
 .photo {
     padding-top: 1vw;
+    padding-bottom: 1vw;
     max-width: 100%;
     object-fit: cover;
 }
