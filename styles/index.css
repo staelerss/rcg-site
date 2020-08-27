@@ -197,16 +197,20 @@ body {
 }
 
 .articles, .open-lessons, .center, .master-classes {
-    padding: 1em;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
 }
 
 .articles-picture, .open-lessons-picture, .center-picture, .master-classes-picture {
     max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
     transition: all 150ms ease-in-out;
 }
 
 .articles-picture:hover, .open-lessons-picture:hover, .center-picture:hover, .master-classes-picture:hover {
-    border: 5px silver solid;
+    border: 3px silver solid;
     border-radius: 3px;
     padding: 3px;
 }
@@ -221,17 +225,9 @@ body {
 }
 
 .picture-exp {
-    margin-left: auto;
     margin-right: auto;
-    max-width: 35%;
-}
-
-.picture-exp-third, .picture-exp-first {
-    margin-right: 0px;
-}
-
-.picture-exp-forth, .picture-exp-second {
-    margin-left: 0px;
+    margin-left: auto;
+    max-width: 100%;
 }
 
 .breadcrumbs {
