@@ -1,0 +1,24 @@
+body{}
+body, td, tr, a, p, input, select, textarea {font-family:Arial; font-size:16px; color:#003366;}
+
+p{padding-left:34px;}
+
+h1, h1 a {font-size:21px; font-weight:bold; color:#0033CC; font-family:georgia; margin-top:0px; margin-bottom:0px;}
+h2, h2 a {font-size:16px; font-weight:bold; color:#0033CC; font-family:georgia; text-decoration:none; margin-top:5px; margin-bottom:5px;}
+h3, h3 a {font-size:12px; font-weight:bold; font-family:georgia; color:#003366; margin-top:5px; margin-bottom:5px;}
+
+a{color:#005DDB; text-decoration:underline;}
+a:visited{color:#968FD9;}
+a:hover{text-decoration:underline; color:#189000;}
+
+
+.tbl_{}
+.tbl_ td{background:#E5EEF3}
+.tbl_ th{font-size:14px; color:#ffffff; font-weight:bold;background:#13A9F5;}
+
+ul, ol{margin-top:5px; margin-bottom:5px;}
+
+.main_menu{}
+.main_menu td{}
+.main_menu a,.main_menu a:visited {color:#C9E4FF; font-weight:bold; text-decoration:none; font-size:12px;}
+.main_menu a:hover{color:#00EFFE; text-decoration:none;}

@@ -1,0 +1,26 @@
+body{}
+
+td, tr, a, input, select, p, ul, li {font-family:verdana; color:#333333; font-size:13px;}
+
+a, a:visited{text-decoration:none; font-size:13px;}
+a:hover{text-decoration:none;}
+
+h1, h1 a {font-size:16px; font-weight:bold;font-family:verdana;}
+h2, h2 a {font-size:14px; font-weight:bold;font-family:verdana;}
+h3, h3 a {font-size:13px; font-weight:bold;font-family:verdana;}
+
+.tbl_{border-top:1px solid #000000; border-left:1px solid #000000;}
+.tbl_ td{border-right:1px solid #000000; border-bottom:1px solid #000000;}
+.tbl_ th{font-size:13px;border-right:1px solid #000000; color:#006600; border-bottom:1px solid #000000;background:#DBF2DA;}
+
+ul, ol{margin-top:5px; margin-bottom:5px;}
+
+.example td{background:#dbf2da;color:#006600; padding:10px;}
+.example p{color:#006600;}
+.header_white{color:#ffffff}
+.header_blue{color:#003c79; font-size:14px;}
+
+.borderr{border-right:1px solid #333;}
+
+table.padd5 {border-bottom:1px solid #333333; border-right:1px solid #333333l}
+table.padd5 td {padding:6px 3px 6px 3px;border-left:1px solid #333333; border-top:1px solid #333333;}

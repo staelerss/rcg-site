@@ -1,0 +1,2 @@
+1. Открываем файл index.html в браузере (edge, firefox, yandex, chrome)
+2. Для запуска старых файлов .swf с помощью internet explorer

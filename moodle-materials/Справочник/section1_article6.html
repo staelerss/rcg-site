@@ -1,0 +1,163 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Справочник. Округление чисел.</TITLE>
+<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+<link href="_css/common.css" rel="stylesheet" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<script src="_js/prototype.js"></script>
+<script src="_js/common.js"></script>
+</HEAD>
+<body style="margin:0px; background:url(_img/fon.gif)">
+<table cellspacing=0 cellpadding=0 border=0 width=100% height=100%>
+	<tr>
+		<td valign=top>
+			<table cellspacing=0 cellpadding=0 border=0 width=100%>
+				<tr>
+					<td>
+						<table cellspacing=0 cellpadding=0 border=0 width=180>
+							<tr>
+								<td colspan=2 height=1 bgcolor=#8e8e8e><img src="_img/spacer.gif" width=1 height=1></td>
+							</tr>
+							<tr>
+								<td height=29 style="background:url(_img/fontop.jpg) repeat-x;" align=center valign=middle class=header_blue><b>Справочник</b></td>
+								<td width=9><img src="_img/topright.gif"></td>
+							</tr>
+							<tr>
+								<td colspan=2><img src="_img/spacer.gif" height=10 width=1></td>
+							</tr>
+						</table>
+					</td>
+					<td valign=top align=right>
+						<input type="image" src="_img/close.gif" onClick="winClose()">
+					</td>
+				</tr>
+			</table>
+			<table cellspacing=0 cellpadding=0 border=0 width=100%>
+				<tr>
+					<td style="padding-left:9px;" width=9><img src="_img/headerleft.gif"></td>
+					<td style="background:url(_img/headerfon.jpg) repeat-x;" align=center class=header_white><b>Округление чисел</b></td>
+					<td style="padding-right:9px;" width=9><img src="_img/headerright.gif"></td>
+				</tr>
+				<tr>
+					<td colspan=3><img src="_img/spacer.gif" height=10 width=1></td>
+				</tr>
+			</table>
+			<table cellspacing=0 cellpadding=0 border=0 width=100% height=100%>
+				<tr>
+					<td style="padding-left:9px;" valign=top>
+						<table cellspacing=0 cellpadding=0 border=0 width=100% height=100%>
+							<tr>
+								<td height=9>
+									<table cellspacing=0 cellpadding=0 border=0 width=100% height=9>
+										<tr>
+											<td width=10><img src="_img/bodyleft.gif"></td>
+											<td style="background:url(_img/bodytop.gif) repeat-x;"><img src="_img/spacer.gif" height=9 width=1></td>
+											<td width=10><img src="_img/bodyright.gif"></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td height=100% bgcolor=#ffffff style="border-left:1px solid #8e8e8e; border-right:1px solid #8e8e8e; padding:10px;" valign=top>
+									<h2>Округление натуральных чисел</h2>
+									<p>Под округлением натурального числа понимают замену его таким ближайшим по значению числом, у которого одна или несколько последних цифр в его записи заменены нулями. </p>
+									<h3>Правило округления:</h3>
+									<p>Чтобы округлить натуральное число, нужно в записи числа выбрать разряд, до которого производится округление. </p>
+									<p>Цифра, записанная в выбранном  разряде:
+									<ul>
+										<li>не меняется, если следующая за ней справа цифра - 0, 1, 2, 3 или 4;</li>
+										<li>увеличивается на единицу, если следующая за ней справа цифра - 5,6,7,8 или 9.</li>
+									</ul>
+									</p>
+									<p>Все цифры, стоящие справа от данного разряда, заменяются нулями. </p>
+									<table cellspacing=0 cellpadding=0 border=0 width=100% class=example>
+										<tr>
+											<td>
+												<p><b>Пример:</b> 1<u><b>4</b></u>3 &#8776; 140 (округление до десятков); <br>
+													&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5<u><b>6</b></u>71 &#8776; 5700 (округление до сотен). </p>
+											</td>
+										</tr>
+									</table>
+									<p>Если в разряде, до которого производится округление, стоит цифра 9 и необходимо ее увеличить  на единицу, то в этом разряде записывается цифра 0, а цифра в соседнем старшем разряде (слева) увеличивается на 1.</p>
+									<table cellspacing=0 cellpadding=0 border=0 width=100% class=example>
+										<tr>
+											<td>
+												<p><b>Пример:</b> 7<u><b>9</b></u>6 &#8776; 800 (округление до десятков);<br>
+													&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u><b>9</b></u>70 &#8776; 1000 (округление до сотен). </p>
+											</td>
+										</tr>
+									</table>
+									<h2>Округление десятичных дробей</h2>
+									<p>Чтобы округлить десятичную дробь, нужно  в записи числа выбрать разряд, до которого производится округление. Цифра, записанная в данном разряде:
+									<ul>
+										<li>не меняется, если следующая за ней справа цифра - 0, 1, 2, 3 или 4;</li>
+										<li>увеличивается на единицу, если следующая за ней справа цифра - 5,6,7,8 или 9.</li>
+									</ul>
+									</p>
+									<p>Все цифры, стоящие справа от данного разряда, заменяются нулями. Если эти нули находятся в дробной части числа, то их  не пишут.</p>
+									<table cellspacing=0 cellpadding=0 border=0 width=100% class=example>
+										<tr>
+											<td>
+												<p><b>Пример:</b> 143,<u><b>6</b></u>4 &#8776; 143,6 (округление до десятых); <br>
+													&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5,6<u><b>8</b></u>7 &#8776; 5,69 (округление до сотых);<br>
+													&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2<u><b>7</b></u>,945 &#8776; 28 (округление до целых). </p>
+											</td>
+										</tr>
+									</table>
+									<p>Если в разряде, до которого производится округление, стоит цифра 9 и необходимо ее увеличить  на единицу, то в этом разряде записывается цифра 0, а цифра в предыдущем разряде (слева) увеличивается на 1.</p>
+									<table cellspacing=0 cellpadding=0 border=0 width=100% class=example>
+										<tr>
+											<td>
+												<p><b>Пример:</b> <u><b>8</b></u>9<u><b>,</b></u>6 &#8776; 90 (округление до десятков);<br>
+													&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0,0<u><b>9</b></u>7 &#8776; 0,10 (округление до сотых). </p>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td width=149 valign=top align=right>
+						<table cellspacing=0 cellpadding=0 border=0 width=100%>
+							<tr>
+								<td align=right>
+									<input type="image" src="_img/start.gif" onClick="goUrl('index.html')">
+								</td>
+							</tr>
+							<tr>
+								<td><img src="_img/spacer.gif" height=10 width=1></td>
+							</tr>
+							<tr>
+								<td align=right>
+									<input type="image" src="_img/sound.gif" onClick="saveStatistics('audio'); doAudio('audio/section1_article6.mp3','Округление натуральных чисел')">
+								</td>
+							</tr>
+							<tr>
+								<td><img src="_img/spacer.gif" height=10 width=1></td>
+							</tr>
+							<tr>
+								<td align=right>
+									<input type="image" src="_img/later.gif" onClick="goUrl('section1_article7.html')">
+								</td>
+							</tr>
+							<tr>
+								<td><img src="_img/spacer.gif" height=10 width=1></td>
+							</tr>
+							<tr>
+								<td align=right>
+									<input type="image" src="_img/back.gif" onClick="goUrl('section1_article5.html')">
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</body>
+</HTML>

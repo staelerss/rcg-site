@@ -1,0 +1,141 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Справочник. Наибольший общий делитель</TITLE>
+<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+<link href="_css/common.css" rel="stylesheet" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<script src="_js/prototype.js"></script>
+<script src="_js/common.js"></script>
+</HEAD>
+<body style="margin:0px; background:url(_img/fon.gif)">
+<table cellspacing=0 cellpadding=0 border=0 width=100% height=100%>
+	<tr>
+		<td valign=top>
+			<table cellspacing=0 cellpadding=0 border=0 width=100%>
+				<tr>
+					<td>
+						<table cellspacing=0 cellpadding=0 border=0 width=180>
+							<tr>
+								<td colspan=2 height=1 bgcolor=#8e8e8e><img src="_img/spacer.gif" width=1 height=1></td>
+							</tr>
+							<tr>
+								<td height=29 style="background:url(_img/fontop.jpg) repeat-x;" align=center valign=middle class=header_blue><b>Справочник</b></td>
+								<td width=9><img src="_img/topright.gif"></td>
+							</tr>
+							<tr>
+								<td colspan=2><img src="_img/spacer.gif" height=10 width=1></td>
+							</tr>
+						</table>
+					</td>
+					<td valign=top align=right>
+						<input type="image" src="_img/close.gif" onClick="winClose()">
+					</td>
+				</tr>
+			</table>
+			<table cellspacing=0 cellpadding=0 border=0 width=100%>
+				<tr>
+					<td style="padding-left:9px;" width=9><img src="_img/headerleft.gif"></td>
+					<td style="background:url(_img/headerfon.jpg) repeat-x;" align=center class=header_white><b>Наибольший общий делитель</b></td>
+					<td style="padding-right:9px;" width=9><img src="_img/headerright.gif"></td>
+				</tr>
+				<tr>
+					<td colspan=3><img src="_img/spacer.gif" height=10 width=1></td>
+				</tr>
+			</table>
+			<table cellspacing=0 cellpadding=0 border=0 width=100% height=100%>
+				<tr>
+					<td style="padding-left:9px;" valign=top>
+						<table cellspacing=0 cellpadding=0 border=0 width=100% height=100%>
+							<tr>
+								<td height=9>
+									<table cellspacing=0 cellpadding=0 border=0 width=100% height=9>
+										<tr>
+											<td width=10><img src="_img/bodyleft.gif"></td>
+											<td style="background:url(_img/bodytop.gif) repeat-x;"><img src="_img/spacer.gif" height=9 width=1></td>
+											<td width=10><img src="_img/bodyright.gif"></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td height=100% bgcolor=#ffffff style="border-left:1px solid #8e8e8e; border-right:1px solid #8e8e8e; padding:10px;" valign=top>
+<p><b>Общим делителем</b> натуральных чисел <b>а</b> и <b>b</b> называется такое натуральное число, на которое делятся оба числа <b>а</b> и <b>b</b>.</p>
+<p><b>Наибольшим общим делителем</b> чисел <b>а</b> и <b>b</b> называется наибольшее натуральное число, на которое делятся оба числа <b>а</b> и <b>b</b>.</p>
+<p>Наибольший общий делитель чисел <b>а</b> и <b>b</b>  обозначается НОД (<b>а, b</b>).</p>
+<table cellspacing=0 cellpadding=0 border=0 width=100% class=example>
+<tr>
+	<td>
+	<p><b>Пример:</b> Пусть даны числа 16 и 24. Выпишем делители числа 16: 1, 2, 4, 8, 16.</p>
+	<p>Выпишем делители числа 24: 1, 2, 3, 4, 6, 8, 12, 24.</p>
+	<p>Среди выписанных чисел есть одинаковые: 1, 2, 4, 8. Все эти числа называются общими делителями чисел 16 и 24. Наибольшее из них, число 8, называется наибольшим  общим делителем чисел 16 и 24: НОД (16, 24) = 8.</p>
+	</td>
+</tr>
+</table>
+<p>Для любых заданных двух или более натуральных чисел можно найти наибольший общий делитель. Числа <b>а</b> и <b>b</b> называются <b>взаимно простыми</b>, если наибольший общий делитель этих чисел равен 1. Например, числа 14 и 35 взаимно простые.</p>
+<p>Чтобы найти наибольший общий делитель двух чисел <b>а</b> и <b>b</b>, нужно:</p>
+<ol>
+<li>найти канонические разложения чисел <b>а</b> и <b>b</b> на множители;</li>
+<li>выделить степени с одинаковыми основаниями (если таких степеней нет, то числа <b>а</b> и <b>b</b> взаимно просты и НОД (<b>а, b</b>) = 1);</li>
+<li>из этих степеней выбрать степени с наименьшими показателями;</li>
+<li>записать произведение выбранных степеней.<li>
+</ol>
+<table cellspacing=0 cellpadding=0 border=0 width=100% class=example>
+<tr>
+	<td>
+	<p><b>Пример:</b> Найти НОД (54, 90).</p>
+	<p>Решение.  54 = 2 &middot; 3<sup>3</sup>; 60 = 2 &middot; 3<sup>2</sup> &middot; 5.</p>
+	<p>Значит, НОД (54, 90) = 2 ·3<sup>2</sup>  = 18.</p>
+	</td>
+</tr>
+</table>
+<p align=right><input type="image" src="_img/flash.gif" onClick="saveStatistics('video'); doMovie('movie/film28.swf')"></p>
+<p>Аналогично можно найти наибольший общий делитель трех и более чисел.</p>
+<p>Если одно из двух чисел делится нацело на другое, то наибольший общий делитель этих чисел равен меньшему из них. Например, НОД (12, 36) = 12.</p>
+<p>Наибольший общий делитель двух различных простых чисел равен единице.</p>
+</td></tr>
+						</table>
+					</td>
+					<td width=149 valign=top align=right>
+						<table cellspacing=0 cellpadding=0 border=0 width=100%>
+							<tr>
+								<td align=right>
+									<input type="image" src="_img/start.gif" onClick="goUrl('index.html')">
+								</td>
+							</tr>
+							<tr>
+								<td><img src="_img/spacer.gif" height=10 width=1></td>
+							</tr>
+							<tr>
+								<td align=right>
+									<input type="image" src="_img/sound.gif" onClick="saveStatistics('audio'); doAudio('audio/section3_article5.mp3','Наибольший общий делитель')">
+								</td>
+							</tr>
+							<tr>
+								<td><img src="_img/spacer.gif" height=10 width=1></td>
+							</tr>
+							<tr>
+								<td align=right>
+									<input type="image" src="_img/later.gif" onClick="goUrl('section3_article6.html')">
+								</td>
+							</tr>
+							<tr>
+								<td><img src="_img/spacer.gif" height=10 width=1></td>
+							</tr>
+							<tr>
+								<td align=right>
+									<input type="image" src="_img/back.gif" onClick="goUrl('section3_article4.html')">
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</body>
+</HTML>
